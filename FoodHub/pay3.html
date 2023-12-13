@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="pay.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya&family=Fasthand&family=Fuzzy+Bubbles:wght@700&family=Inter:wght@200&family=Montserrat:wght@100&family=Mukta:wght@700&family=Nunito:wght@200&family=Poppins:wght@200&family=Roboto:wght@300;500&family=Ubuntu&display=swap"
+    rel="stylesheet">
+    <title>Order & Payment</title>
+</head>
+
+<body>
+	<section class="header">
+		<nav>
+			<h1>FoodHub</h1>
+			<div class="nav-links">
+				<ul>
+					<li><a href="home.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+					<li><a href="review.html">REVIEW</a></li>
+					<li><a href="login.html">LOG IN</a></li>
+				</ul>
+			</div>
+		</nav>
+    <div class="box">
+        <div id="body1" class="body">
+            <p id="p1">Order placed</p>
+        </div>
+        <div id="body2" class="body">
+            <h2 id="n1">Bill Details: Cold Coffee</h2><br>
+            <p id="p2">Total Items : 1</p><br><br>
+            <p id="p3">cost: ₹150</p><br><br>
+            <p id="p4">Address</p>
+            <textarea name="address" id="address" cols="60" rows="6"></textarea>
+            <span><p id="p5">Payment option</p></span>
+             <select name="payment" placeholder="payment" id="payment"  required>
+                <option value="Select Payment Method"></option>
+                 <option value="UPI">UPI</option>
+                 <option value="COD">COD</option>
+                 <option value="VISA">VISA</option>
+            </select>
+    
+            <input type="button" id="button" name="Place order" value="Place order"
+ onclick="location.href='bill3.php'">
+        </div>
+    </div>
+   
+</body>
+</html>

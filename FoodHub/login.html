@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <div class="h1">
+        <header>Login</header>
+      </div>
+      <input type="email" placeholder="Enter your email" name="email">
+      <input type="password" placeholder="Enter your password" name="password">
+      <button id="btn">
+        <a href="home.html" onclick="message()">LOGIN</a>
+      </button>
+      <input type="button" id="btn" name="Home" value="Home" onclick="location.href='home.html'">
+    </div>
+  </div>
+  <script>
+
+    function message() {
+      alert("You have been logged in successfully.")
+    }
+  </script>
+</body>
+
+</html>

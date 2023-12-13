@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: flex;
+}
+
+#part1{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+#logop{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0px; 
+}
+#nav {
+    list-style: none;
+    padding: 4px 32px;
+    display: flex;
+    margin-top: 20px;
+}
+
+#navbar{
+    margin-left: -148px;
+}
+
+.items a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+#outerbox{
+    padding: 0px 68px;
+}
+
+#class{
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+}
+
+.p1{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 30px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 100px;
+    
+}
+
+.food{
+    padding: 10px 10px;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: white;
+    margin: 10px 12px;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+}
+
+.productimg{
+    height: 50vh;
+    border-radius: 8px;
+}
+
+.object{
+    padding: 0px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 0px;
+    margin-top: 7px;
+}
+
+span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px;
+}
+
+.foodspan{
+    padding: 2px 15px;
+    background-color:  #c57e28; 
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.objectbtn{
+    border: 2px solid #c57e28;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0px 20px;
+    background-color: white;
+    border-radius: 4px;
+    height: 5vh ;
+    
+}
+#product3{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid rgb(255, 255, 255);
+    background: url('https://res.cloudinary.com/dxktvkork/image/upload/v1678899682/schezwan_noodles_nqeqcy.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+}
